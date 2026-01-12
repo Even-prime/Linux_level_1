@@ -1,0 +1,20 @@
+In response to heightened security concerns, the xFusionCorp Industries security team has opted for custom Apache users for their web applications. Each user is tailored specifically for an application, enhancing security measures. Your task is to create a custom Apache user according to the outlined specifications:
+
+
+
+a. Create a user named siva on App server 2 within the Stratos Datacenter.
+
+
+b. Assign a unique UID 1274 and designate the home directory as /var/www/siva.
+
+Note: You can find the infrastructure details by clicking on the Details of all Users and Servers button on the top-right section of the page.
+
+
+soln:
+ssh username@servername
+yes
+password
+useradd help
+ls
+useradd -u 1274 -d /var/www/siva -m siva
+id siva
