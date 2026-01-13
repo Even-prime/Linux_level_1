@@ -1,5 +1,0 @@
-Linux User Data Transfer
-soln :
-
-sudo mkdir -p /blog
-sudo find /home/usersdata -type f -user john -exec cp --parents {} /blog \;                                                     
