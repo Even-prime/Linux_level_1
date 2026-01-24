@@ -1,0 +1,27 @@
+thor@jumphost ~$ ssh    natasha@ststor01
+The authenticity of host 'ststor01 (172.16.238.15)' can't be established.
+ED25519 key fingerprint is SHA256:yFQttHxi1lobIGCBuNRQA+0o0+IcERCjHqK2qWHtcFY.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'ststor01' (ED25519) to the list of known hosts.
+natasha@ststor01's password: 
+Permission denied, please try again.
+natasha@ststor01's password: 
+Permission denied, please try again.
+natasha@ststor01's password: 
+Last failed login: Sat Jan 24 18:04:33 UTC 2026 from 172.16.238.3 on ssh:notty
+There were 2 failed login attempts since the last successful login.
+[natasha@ststor01 ~]$ sudo -i
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+[sudo] password for natasha: 
+[root@ststor01 ~]# tar zcf kirsty.tar.gz /data/kirsty 
+tar: Removing leading `/' from member names
+[root@ststor01 ~]# mv kirsty.tar.gz /home
+[root@ststor01 ~]# 
