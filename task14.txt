@@ -1,0 +1,6 @@
+#Default GUI Boot Configuration
+
+systemctl get-default
+systemctl set-default graphics.target
+
+#do the same for all 3 app server and check ;)
