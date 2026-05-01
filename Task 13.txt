@@ -1,0 +1,9 @@
+systemctl status cornd
+vi /etc/crond.alow
+add name here that nedd to give access
+exit 
+vi /etc/crond.deny
+add name here that need to restrict access
+exit
+
+check ;)
