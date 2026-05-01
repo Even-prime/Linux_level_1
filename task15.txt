@@ -1,0 +1,3 @@
+#Changing timezone:
+timedatectl
+timedatectl set-timezone Indian/Mahe
